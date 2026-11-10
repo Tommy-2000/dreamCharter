@@ -1,1 +1,7 @@
+
+## Ignore the canvaskit file while commiting as it could be stale
+## Generate your own canvaskit when testing Skia web rendering localy on your machine
 dreamcharter_react/public/canvaskit.wasm
+
+## Ignore the env file containing API keys and security tokens
+dreamcharter_react/.env
