@@ -5,7 +5,10 @@ const {
 } = require('react-native-reanimated/metro-config');
 
 /** @type {import('expo/metro-config').MetroConfig} */
-const expoConfig = getDefaultConfig(__dirname);
+const expoConfig = getDefaultConfig(__dirname, {
+  // [Web-only]: Enables CSS support in Metro.
+  isCSSEnabled: true
+});
 
 // expoConfig.resolver.unstable_enablePackageExports = true;
 

@@ -5,3 +5,6 @@ dreamcharter_react/public/canvaskit.wasm
 
 ## Ignore the env file containing API keys and security tokens
 dreamcharter_react/.env
+
+## Ignore the node_memory function for checking node memory usage
+dreamcharter_react/node_memory.ts
