@@ -3,44 +3,51 @@
  */
 
 // Helper to ensure Skia loads or throws inside of React Suspense on web.
-import React from "react";
-import { LoadSkiaWeb } from "react-native-skia/lib/module/web";
+import React from 'react';
+import { LoadSkiaWeb } from 'react-native-skia/lib/module/web';
 
 function wrapSkiaPromise<T>(promise: Promise<T>) {
-  let status: "rendering" | "rendered" | "error" = "rendering";
+  let status: 'rendering' | 'rendered' | 'error' = 'rendering';
   let result: T | unknown;
   let suspender = promise.then(
     (s: T) => {
-      status = "rendered";
+      status = 'rendered';
       result = s;
     },
     (e: unknown) => {
-      status = "error";
+      status = 'error';
       result = e;
-    },
+    }
   );
+
+  if (typeof window === 'undefined') return;
+
+  if ((window as any).CanvasKit) {
+    console.log('window found Canvas component, starting Skia rendering...');
+    return;
+  }
+
   return {
     read(): T {
-      if (status === "rendering") {
+      if (status === 'rendering') {
         throw suspender;
-      } else if (status === "error") {
+      } else if (status === 'error') {
         throw result;
-      } else if (status === "rendered") {
+      } else if (status === 'rendered') {
         return result as T;
       }
-      throw new Error("Skia component failed to render, please try again");
-    },
+      throw new Error('Skia component failed to render, please try again');
+    }
   };
 }
 
 const promiseMap = new Map();
 
 const getSuspendingSkiaPromise = () => {
-  const id = "skia";
+  const id = 'skia';
   if (!promiseMap.has(id)) {
     const loader = wrapSkiaPromise(LoadSkiaWeb());
     promiseMap.set(id, loader);
-    return loader.read();
   }
 
   return promiseMap.get(id).read();
