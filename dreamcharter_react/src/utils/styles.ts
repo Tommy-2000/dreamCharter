@@ -36,7 +36,7 @@ export const dashboardStyles = StyleSheet.create({
   }
 });
 
-export const dreamchartStyles = StyleSheet.create({
+export const dreamgraphStyles = StyleSheet.create({
   scrollView: {
     flex: 1
   },
@@ -73,9 +73,6 @@ export const dreamchartStyles = StyleSheet.create({
     gap: Spacing.five,
     paddingHorizontal: Spacing.four,
     paddingTop: Spacing.three
-  },
-  collapsibleContent: {
-    alignItems: 'center'
   },
   imageTutorial: {
     width: '100%',
@@ -128,9 +125,6 @@ export const opportunitiesStyles = StyleSheet.create({
     paddingHorizontal: Spacing.four,
     paddingTop: Spacing.three
   },
-  collapsibleContent: {
-    alignItems: 'center'
-  },
   imageTutorial: {
     width: '100%',
     aspectRatio: 296 / 171,
@@ -182,9 +176,6 @@ export const practiceStyles = StyleSheet.create({
     paddingHorizontal: Spacing.four,
     paddingTop: Spacing.three
   },
-  collapsibleContent: {
-    alignItems: 'center'
-  },
   imageTutorial: {
     width: '100%',
     aspectRatio: 296 / 171,
@@ -235,9 +226,6 @@ export const profileStyles = StyleSheet.create({
     gap: Spacing.five,
     paddingHorizontal: Spacing.four,
     paddingTop: Spacing.three
-  },
-  collapsibleContent: {
-    alignItems: 'center'
   },
   imageTutorial: {
     width: '100%',

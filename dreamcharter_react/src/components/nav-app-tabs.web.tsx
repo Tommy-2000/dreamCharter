@@ -1,10 +1,10 @@
 import {
-    TabList,
-    TabListProps,
-    Tabs,
-    TabSlot,
-    TabTrigger,
-    TabTriggerSlotProps
+  TabList,
+  TabListProps,
+  Tabs,
+  TabSlot,
+  TabTrigger,
+  TabTriggerSlotProps
 } from 'expo-router/ui';
 import { Pressable, StyleSheet, useColorScheme, View } from 'react-native';
 
@@ -22,8 +22,8 @@ export default function NavAppTabs() {
           <TabTrigger name="dashboard" href="/" asChild>
             <TabButton>Dashboard</TabButton>
           </TabTrigger>
-          <TabTrigger name="dreamchart" href="/dreamchart" asChild>
-            <TabButton>DreamChart</TabButton>
+          <TabTrigger name="dreamgraph" href="/dreamgraph" asChild>
+            <TabButton>DreamGraph</TabButton>
           </TabTrigger>
           <TabTrigger name="opportunities" href="/opportunities" asChild>
             <TabButton>Opportunities</TabButton>

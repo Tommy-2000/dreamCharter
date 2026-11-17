@@ -1,30 +1,29 @@
-import { NativeTabs } from "expo-router/native-tabs";
-import { useColorScheme } from "react-native";
+import { NativeTabs } from 'expo-router/native-tabs';
+import { useColorScheme } from 'react-native';
 
-import { Colors } from "@/utils/theme";
+import { Colors } from '@/utils/theme';
 
 export default function NavAppTabs() {
   const scheme = useColorScheme();
-  const colors = Colors[scheme === "dark" ? "dark" : "light"];
+  const colors = Colors[scheme === 'dark' ? 'dark' : 'light'];
 
   return (
     <NativeTabs
       backgroundColor={colors.background}
       indicatorColor={colors.backgroundElement}
-      labelStyle={{ selected: { color: colors.text } }}
-    >
+      labelStyle={{ selected: { color: colors.text } }}>
       <NativeTabs.Trigger name="index">
         <NativeTabs.Trigger.Label>Dashboard</NativeTabs.Trigger.Label>
         <NativeTabs.Trigger.Icon
-          src={require("@/assets/images/tabIcons/home.png")}
+          src={require('@/assets/images/tabIcons/home.png')}
           renderingMode="template"
         />
       </NativeTabs.Trigger>
 
-      <NativeTabs.Trigger name="dreamchart">
-        <NativeTabs.Trigger.Label>DreamChart</NativeTabs.Trigger.Label>
+      <NativeTabs.Trigger name="dreamgraph">
+        <NativeTabs.Trigger.Label>DreamGraph</NativeTabs.Trigger.Label>
         <NativeTabs.Trigger.Icon
-          src={require("@/assets/images/tabIcons/explore.png")}
+          src={require('@/assets/images/tabIcons/explore.png')}
           renderingMode="template"
         />
       </NativeTabs.Trigger>

@@ -93,9 +93,7 @@ export default function ProfileScreen() {
             </CollapsibleCard>
 
             <CollapsibleCard title="Android, iOS, and web support">
-              <Card
-                type="backgroundElement"
-                style={profileStyles.collapsibleContent}>
+              <Card type="backgroundElement" style={{ alignItems: 'center' }}>
                 <TextCard type="small">
                   You can open this project on Android, iOS, and the web. To
                   open the web version, press{' '}

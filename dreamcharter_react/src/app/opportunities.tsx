@@ -1,8 +1,14 @@
 import { Image } from 'expo-image';
 import { SymbolView } from 'expo-symbols';
 import { Platform, Pressable } from 'react-native';
+import {
+  SortableGrid,
+  SortableGridItem,
+  SortableGridRenderItemProps
+} from 'react-native-reanimated-dnd';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
+import { Opportunity, OpportunityType } from '@/api/models';
 import { Card } from '@/components/card';
 import { CollapsibleCard } from '@/components/collapsible-card';
 import { ExternalLink } from '@/components/external-link';
@@ -13,6 +19,7 @@ import { useTheme } from '@/hooks/use-theme';
 import { opportunitiesStyles } from '@/utils/styles';
 import { BottomTabInset, Spacing } from '@/utils/theme';
 import { FiberProvider } from 'its-fine';
+import { useCallback } from 'react';
 
 export default function OpportunitiesScreen() {
   const safeAreaInsets = useSafeAreaInsets();
@@ -34,6 +41,71 @@ export default function OpportunitiesScreen() {
       paddingBottom: Spacing.four
     }
   });
+
+  const opportunitiesData: Opportunity[] = [
+    {
+      id: '1',
+      opportunityTitle: '',
+      opportunityDescription: '',
+      opportunityType: OpportunityType.GRADUATE_SCHEME,
+      salary: 1234,
+      datePosted: '123123',
+      dateUpdated: '123123',
+      company: '',
+      recruiter: ''
+    },
+    {
+      id: '2',
+      opportunityTitle: '',
+      opportunityDescription: '',
+      opportunityType: OpportunityType.GRADUATE_SCHEME,
+      salary: 1234,
+      datePosted: '123123',
+      dateUpdated: '123123',
+      company: '',
+      recruiter: ''
+    },
+    {
+      id: '3',
+      opportunityTitle: '',
+      opportunityDescription: '',
+      opportunityType: OpportunityType.GRADUATE_SCHEME,
+      salary: 1234,
+      datePosted: '123123',
+      dateUpdated: '123123',
+      company: '',
+      recruiter: ''
+    },
+    {
+      id: '4',
+      opportunityTitle: '',
+      opportunityDescription: '',
+      opportunityType: OpportunityType.GRADUATE_SCHEME,
+      salary: 1234,
+      datePosted: '123123',
+      dateUpdated: '123123',
+      company: '',
+      recruiter: ''
+    }
+  ];
+
+  const renderItem = useCallback(
+    (props: SortableGridRenderItemProps<(typeof opportunitiesData)[0]>) => {
+      const { item, id, ...rest } = props;
+      return (
+        <SortableGridItem key={id} id={id} data={item} {...rest}>
+          <Card>
+            <TextCard>{item.opportunityTitle}</TextCard>
+            <TextCard>{item.opportunityDescription}</TextCard>
+            <TextCard>{item.opportunityType}</TextCard>
+            <TextCard>{item.salary}</TextCard>
+            <TextCard>{item.company}</TextCard>
+          </Card>
+        </SortableGridItem>
+      );
+    },
+    []
+  );
 
   return (
     <FiberProvider>
@@ -79,38 +151,19 @@ export default function OpportunitiesScreen() {
           </Card>
 
           <Card style={opportunitiesStyles.sectionsWrapper}>
-            <CollapsibleCard title="File-based routing">
-              <TextCard type="small">
-                This app has two screens:{' '}
-                <TextCard type="code">src/app/index.tsx</TextCard> and{' '}
-                <TextCard type="code">src/app/explore.tsx</TextCard>
-              </TextCard>
-              <TextCard type="small">
-                The layout file in{' '}
-                <TextCard type="code">src/app/_layout.tsx</TextCard> sets up the
-                tab navigator.
-              </TextCard>
-              <ExternalLink href="https://docs.expo.dev/router/introduction">
-                <TextCard type="linkPrimary">Learn more</TextCard>
-              </ExternalLink>
-            </CollapsibleCard>
-
-            <CollapsibleCard title="Android, iOS, and web support">
-              <Card
-                type="backgroundElement"
-                style={opportunitiesStyles.collapsibleContent}>
-                <TextCard type="small">
-                  You can open this project on Android, iOS, and the web. To
-                  open the web version, press{' '}
-                  <TextCard type="smallBold">w</TextCard> in the terminal
-                  running this project.
-                </TextCard>
-                <Image
-                  source={require('@/assets/images/tutorial-web.png')}
-                  style={opportunitiesStyles.imageTutorial}
-                />
-              </Card>
-            </CollapsibleCard>
+            <Card type="backgroundElement" style={{ alignItems: 'center' }}>
+              <SortableGrid
+                data={opportunitiesData}
+                renderItem={renderItem}
+                dimensions={{
+                  columns: 4,
+                  itemWidth: 80,
+                  itemHeight: 80,
+                  rowGap: 12,
+                  columnGap: 12
+                }}
+              />
+            </Card>
 
             <CollapsibleCard title="Images">
               <TextCard type="small">

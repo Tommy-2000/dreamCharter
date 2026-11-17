@@ -95,9 +95,7 @@ export default function PracticeScreen() {
             </CollapsibleCard>
 
             <CollapsibleCard title="Android, iOS, and web support">
-              <Card
-                type="backgroundElement"
-                style={practiceStyles.collapsibleContent}>
+              <Card type="backgroundElement" style={{ alignItems: 'center' }}>
                 <TextCard type="small">
                   You can open this project on Android, iOS, and the web. To
                   open the web version, press{' '}
