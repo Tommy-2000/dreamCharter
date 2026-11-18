@@ -14,6 +14,7 @@
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
+      "gifEnabled": false,
       "predictiveBackGestureEnabled": false,
       "package": "com.dreamdivers.dreamcharter"
     },
@@ -41,7 +42,8 @@
           "imageWidth": 76
         }
       ],
-      "expo-font"
+      "expo-font",
+      "expo-build-properties"
     ],
     "experiments": {
       "typedRoutes": true,
