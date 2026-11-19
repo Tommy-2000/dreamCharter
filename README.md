@@ -18,6 +18,7 @@
 
 - Skills-Based
 - Supportive
+- Intelligent
 - Inclusive
 
 ## Pages
