@@ -25,8 +25,8 @@
 
 - Dashboard – Shows an overview of recommended opportunities, upcoming deadlines for saved opportunities, recommended assessment/interview practices, online virtual events and more.
 - DreamGraph – Users can ‘chart a course’ with other graduates, apprentices, work experience students and can freely share opportunities that they find. This will be presented as an interactive network graph where users can see the connections between jobs, companies and graduate/junior employees, helping them find the right people to discuss career opportunities. Inspired by Obsidian and how documents are organised into interactive network graphs.
-- Tests – Users can find assessment practice sessions for aptitude tests, mathematics tests and behavioural tests, as well as virtual mock interviews that can be booked with an nominated as a guide (called a Charter) for the student/graduate.
-- Opportunities – Jobs can be filtered based on key personal and professional skills as well as other filters. Each job will have an in-built map showing the physical location of the job poster’s offices and allow the user to measure the commute time for on-site and hybrid roles.
+- - Opportunities – Jobs can be filtered based on key personal and professional skills as well as other filters. Each job will have an in-built map showing the physical location of the job poster’s offices and allow the user to measure the commute time for on-site and hybrid roles.
+- Tests – Users can find assessment practice sessions for aptitude tests, mathematics tests and behavioural tests, as well as virtual mock interviews that can be booked with a nominated user as a guide (called a Charter) for the student/graduate.
 - Profile – Skills, Experience and Education are sub-sections for each user.
 
 ## Planned Features
@@ -35,7 +35,7 @@
   - Jobs that are similar or relevant to each other.
   - Progress made with job applications & their relation to each other.
   - Companies that are similar or relevant to each other.
-  - Users can nominate a graduate or junior employee to act as a Charter. When given this role, the Charter can offer tailored career support and build a personalised career plan for the user. Mock interviews can also be conducted with a nominated Charter to allow for users to practice.
+  - Users can nominate a graduate or junior employee to act as their Charter. When given this role, the Charter can offer tailored career support and build a personalised career plan for the user. Mock interviews can also be conducted with a nominated Charter to allow for users to practice.
 
 - Built-in messaging platform for directly messaging recruiters & nominated Career Charters.
 
