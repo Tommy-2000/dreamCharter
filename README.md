@@ -26,7 +26,7 @@
 - Dashboard – Shows an overview of recommended opportunities, upcoming deadlines for saved opportunities, recommended assessment/interview practices, online virtual events and more.
 - DreamGraph – Users can ‘chart a course’ with other graduates, apprentices, work experience students and can freely share opportunities that they find. This will be presented as an interactive network graph where users can see the connections between jobs, companies and graduate/junior employees, helping them find the right people to discuss career opportunities. Inspired by Obsidian and how documents are organised into interactive network graphs.
 - Opportunities – Jobs can be filtered based on key personal and professional skills as well as other filters. Each job will have an in-built map showing the physical location of the job poster’s offices and allow the user to measure the commute time for on-site and hybrid roles.
-- Tests – Users can find assessment practice sessions for aptitude tests, mathematics tests and behavioural tests, as well as virtual mock interviews that can be booked with a nominated user as a guide (called a Charter) for the student/graduate.
+- Practice – Users can find assessment practice sessions for aptitude tests, mathematics tests and behavioural tests, as well as virtual mock interviews that can be booked with a nominated user as a guide (called a Charter) for the student/graduate.
 - Profile – Skills, Experience and Education are sub-sections for each user.
 
 ## Planned Features
