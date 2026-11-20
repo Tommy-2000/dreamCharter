@@ -1,10 +1,10 @@
 
 ## Ignore the canvaskit file while commiting as it could be stale
 ## Generate your own canvaskit when testing Skia web rendering localy on your machine
-dreamcharter_react/public/canvaskit.wasm
+dreamcharter.app/public/canvaskit.wasm
 
 ## Ignore the env file containing API keys and security tokens
-dreamcharter_react/.env
+dreamcharter.app/.env
 
 ## Ignore the node_memory function for checking node memory usage
-dreamcharter_react/node_memory.ts
+dreamcharter.app/node_memory.ts
