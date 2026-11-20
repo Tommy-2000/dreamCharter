@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="dreamCharter.AppHost/dreamCharter.AppHost.csproj" />
+  <Project Path="dreamCharter.ServiceDefaults/dreamCharter.ServiceDefaults.csproj" />
+</Solution>
