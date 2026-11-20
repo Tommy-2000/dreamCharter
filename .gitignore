@@ -3,8 +3,13 @@
 ## Generate your own canvaskit when testing Skia web rendering localy on your machine
 dreamcharter.app/public/canvaskit.wasm
 
-## Ignore the env file containing API keys and security tokens
+## Ignore the env file containing API keys and Azure security
 dreamcharter.app/.env
+.env
 
 ## Ignore the node_memory function for checking node memory usage
 dreamcharter.app/node_memory.ts
+
+## Ignore the Terraform file for now
+main.tf
+
