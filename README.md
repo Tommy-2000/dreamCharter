@@ -6,7 +6,7 @@
 
 ## Project Motivation
 
-- While LinkedIn has the wide reach for networking for graduates to get in touch with companies and employees in specific industries, it was designed as a business-focused social media platform that depends on connections. My intent for this project is that this platform is less of a social media application and more of a careers platform that is future-proofed for skills development and interview preparation.
+- While LinkedIn has the wide reach for networking for graduates to get in touch with companies & employees in specific industries, it was designed as a business-focused social media platform that depends on connections. My intent for this project is that this platform is less of a social media application & more of a careers platform that is future-proofed for skills development & interview preparation.
 
 - For students in Year 10 to 13 (Secondary/Senior High School), it can be easy for connections to be lost amongst posts that are not relevant to them. Furthermore, LinkedIn is lacking in specific training resources for interview preparation & assessment practice (e.g. aptitude tests, mathematical tests, behavioural tests, situational judgement tests, etc.), as these practice tools are often found in external platforms.
 
@@ -24,21 +24,21 @@
 ## Current (In-progress) Features
 
 - Interactive ‘spider web’ network graph that shows:
-  - Jobs that are similar or relevant to each other. Responsibilities, skills, industry, level of experience, salary, location, potential Charters
+  - Jobs that are similar or relevant to each other. Responsibilities, skills, industry, level of experience, salary, location, potential Charters.
   - Progress made with job applications & their relation to each other.
   - Companies that are similar or relevant to each other.
 
 - Full offline support
 
-- Users can nominate a graduate or junior employee to act as their Charter. When given this role, the Charter can offer tailored career support and build a personalised career plan for the user. Mock interviews can also be conducted with a nominated Charter to allow for users to practice.
+- Users can nominate a graduate or junior employee to act as their Charter. When given this role, the Charter can offer tailored career support & build a personalised career plan for the user. Mock interviews can also be conducted with a nominated Charter to allow for users to practice.
 
 - Microsoft Teams integration that allows for mock interviews & other career meetings to be conducted on the platform.
 
 - Built-in real-time messaging for directly messaging recruiters & nominated Charters.
 
-- Charters have their own dashboard and can gain positive recognition from users for the support they give.
+- Charters have their own dashboard & can gain positive recognition from users for the support they give.
 
-- Built-in assessment practice tests including numerical reasoning, verbal reasoning, abstract reasoning and situational judgement reasoning tests; allowing users to practice ahead of receiving tests during the application process.
+- Built-in assessment practice tests including numerical reasoning, verbal reasoning, abstract reasoning & situational judgement reasoning tests; allowing users to practice ahead of receiving tests during the application process.
 
 - Accessibility tools:
   - Built-in AAC (Alternative & Augmented Communication) keyboard that is customisable for each user.
@@ -52,19 +52,21 @@
 
 ## Future Features
 
-- CV upload and skills analysis to determine areas that can be strengthened when compared to the role they are about the apply for.
+- CV upload & skills analysis to determine areas that can be strengthened when compared to the role they are about the apply for.
+  
+- Inclusion metrics for each job, allowing jobseekers to make informed decisions on the equal pay, culture and opportunities that a role is providing.
 
 - Import Excel spreadsheets into the platform & turn it into a custom made network graph to show the progress & relations between each job application.
 
-- Desktop builds for Windows, macOS and Linux.
+- Desktop builds for Windows, macOS & Linux.
 
 ## Pages
 
-- Dashboard – Shows an overview of recommended opportunities, upcoming deadlines for saved opportunities, recommended assessment/interview practices, online virtual events and more.
-- DreamGraph – Users can ‘chart a course’ with other graduates, apprentices, work experience students and can freely share opportunities that they find. This will be presented as an interactive network graph where users can see the connections between jobs, companies and graduate/junior employees, helping them find the right people to discuss career opportunities. Inspired by Obsidian and how documents are organised into interactive network graphs.
-- Opportunities – Jobs can be filtered based on key personal and professional skills as well as other filters. Each job will have an in-built map showing the physical location of the job poster’s offices and allow the user to measure the commute time for on-site and hybrid roles.
-- Practice – Users can find assessment practice sessions for aptitude tests, mathematics tests and behavioural tests, as well as virtual mock interviews that can be booked with a nominated user as a guide (called a Charter) for the student/graduate.
-- Profile – Skills, Experience and Education are sub-sections for each user.
+- Dashboard – Shows an overview of recommended opportunities, upcoming deadlines for saved opportunities, recommended assessment/interview practices, online virtual events & more.
+- DreamGraph – Users can ‘chart a course’ with other graduates, apprentices, work experience students & can freely share opportunities that they find. This will be presented as an interactive network graph where users can see the connections between jobs, companies & graduate/junior employees, helping them find the right people to discuss career opportunities. Inspired by the Obsidian note taking app (See: https://obsidian.md/) & how documents are organised into interactive network graphs.
+- Opportunities – Jobs can be filtered based on key personal & professional skills as well as other filters. Each job will have an in-built map showing the physical location of the job poster’s offices & allow the user to measure the commute time for on-site & hybrid roles.
+- Practice – Users can find assessment practice sessions for aptitude tests, mathematics tests & behavioural tests, as well as virtual mock interviews that can be booked with a nominated user as a guide (called a Charter) for the student/graduate.
+- Profile – Skills, Experience & Education are sub-sections for each user.
 
 ## Get Started
 
