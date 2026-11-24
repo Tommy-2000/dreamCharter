@@ -21,31 +21,24 @@
 - Intelligent
 - Inclusive
 
-## Pages
-
-- Dashboard – Shows an overview of recommended opportunities, upcoming deadlines for saved opportunities, recommended assessment/interview practices, online virtual events and more.
-- DreamGraph – Users can ‘chart a course’ with other graduates, apprentices, work experience students and can freely share opportunities that they find. This will be presented as an interactive network graph where users can see the connections between jobs, companies and graduate/junior employees, helping them find the right people to discuss career opportunities. Inspired by Obsidian and how documents are organised into interactive network graphs.
-- Opportunities – Jobs can be filtered based on key personal and professional skills as well as other filters. Each job will have an in-built map showing the physical location of the job poster’s offices and allow the user to measure the commute time for on-site and hybrid roles.
-- Practice – Users can find assessment practice sessions for aptitude tests, mathematics tests and behavioural tests, as well as virtual mock interviews that can be booked with a nominated user as a guide (called a Charter) for the student/graduate.
-- Profile – Skills, Experience and Education are sub-sections for each user.
-
-## Planned Features
+## Current (In-progress) Features
 
 - Interactive ‘spider web’ network graph that shows:
-  - Jobs that are similar or relevant to each other.
+  - Jobs that are similar or relevant to each other. Responsibilities, skills, industry, level of experience, salary, location, potential Charters
   - Progress made with job applications & their relation to each other.
   - Companies that are similar or relevant to each other.
-  - Users can nominate a graduate or junior employee to act as their Charter. When given this role, the Charter can offer tailored career support and build a personalised career plan for the user. Mock interviews can also be conducted with a nominated Charter to allow for users to practice.
 
-- Built-in messaging platform for directly messaging recruiters & nominated Career Charters.
+- Full offline support
+
+- Users can nominate a graduate or junior employee to act as their Charter. When given this role, the Charter can offer tailored career support and build a personalised career plan for the user. Mock interviews can also be conducted with a nominated Charter to allow for users to practice.
+
+- Microsoft Teams integration that allows for mock interviews & other career meetings to be conducted on the platform.
+
+- Built-in real-time messaging for directly messaging recruiters & nominated Charters.
 
 - Charters have their own dashboard and can gain positive recognition from users for the support they give.
 
-- Import Excel spreadsheets into the platform & turn it into a custom made network graph to show the progress & relations between each job application.
-
-- Built-in assessment practice tests including numerical reasoning, verbal reasoning, abstract reasoning and situational judgement reasoning tests.
-
-- Microsoft Teams integration that allows for mock interviews & other career meetings to be conducted on the platform.
+- Built-in assessment practice tests including numerical reasoning, verbal reasoning, abstract reasoning and situational judgement reasoning tests; allowing users to practice ahead of receiving tests during the application process.
 
 - Accessibility tools:
   - Built-in AAC (Alternative & Augmented Communication) keyboard that is customisable for each user.
@@ -53,8 +46,25 @@
   - Dyslexia-friendly text font styles.
   - Text-to-speech for all content.
   - Magnifying glass tool to zoom in on all content.
-  - Full offline support
-  - Available for Android, iOS, Desktop (Linux version will come later) & Web
+
+- Available for Android, iOS & Web (Desktop versions will come later)
+
+
+## Future Features
+
+- CV upload and skills analysis to determine areas that can be strengthened when compared to the role they are about the apply for.
+
+- Import Excel spreadsheets into the platform & turn it into a custom made network graph to show the progress & relations between each job application.
+
+- Desktop builds for Windows, macOS and Linux.
+
+## Pages
+
+- Dashboard – Shows an overview of recommended opportunities, upcoming deadlines for saved opportunities, recommended assessment/interview practices, online virtual events and more.
+- DreamGraph – Users can ‘chart a course’ with other graduates, apprentices, work experience students and can freely share opportunities that they find. This will be presented as an interactive network graph where users can see the connections between jobs, companies and graduate/junior employees, helping them find the right people to discuss career opportunities. Inspired by Obsidian and how documents are organised into interactive network graphs.
+- Opportunities – Jobs can be filtered based on key personal and professional skills as well as other filters. Each job will have an in-built map showing the physical location of the job poster’s offices and allow the user to measure the commute time for on-site and hybrid roles.
+- Practice – Users can find assessment practice sessions for aptitude tests, mathematics tests and behavioural tests, as well as virtual mock interviews that can be booked with a nominated user as a guide (called a Charter) for the student/graduate.
+- Profile – Skills, Experience and Education are sub-sections for each user.
 
 ## Get Started
 
